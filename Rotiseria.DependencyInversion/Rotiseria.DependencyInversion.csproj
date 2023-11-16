@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="7.0.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="7.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Rotiseria.Controllers\Rotiseria.Controllers.csproj" />
+    <ProjectReference Include="..\Rotiseria.Presenters\Rotiseria.Presenters.csproj" />
+    <ProjectReference Include="..\Rotiseria.Repositories\Rotiseria.Repositories.csproj" />
+    <ProjectReference Include="..\Rotiseria.UseCases\Rotiseria.UseCases.csproj" />
+  </ItemGroup>
+
+</Project>
