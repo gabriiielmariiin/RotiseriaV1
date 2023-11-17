@@ -50,6 +50,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rotiseria.DependencyInversi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rotiseria.Repositories", "Rotiseria.Repositories\Rotiseria.Repositories.csproj", "{E33961E3-C5C6-4303-825D-3D8167038842}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BaseDatos", "BaseDatos", "{DFE53C38-F604-4D16-84D1-66F749BD7F3A}"
+	ProjectSection(SolutionItems) = preProject
+		..\programacionpDB.sql = ..\programacionpDB.sql
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
